@@ -10,5 +10,5 @@ Site do Fernando K: https://www.fernandok.com/2017/10/introducao-ao-esp8266.html
  
 Alguns detalhes que queria destacar, pois provavelmente irei esquecer no futuro:
 
-1.Nunca esquecer que o pino GPIO0 deve estar em nível baixo (jumpeado com o GND) para conseguir gravar utilizando a IDE do Arduino.  
-2.Quando a placa estiver em funcionamento normal, o pino CH_PD deve estar em nível alto (jumpeado com o VCC), se não nada funcionará.
+1. Nunca esquecer que o pino GPIO0 deve estar em nível baixo (jumpeado com o GND) para conseguir gravar utilizando a IDE do Arduino.  
+2. Quando a placa estiver em funcionamento normal, o pino CH_PD deve estar em nível alto (jumpeado com o VCC), se não nada funcionará.
