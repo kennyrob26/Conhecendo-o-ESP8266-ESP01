@@ -73,7 +73,8 @@ void loop() {
 
 }
 
-/*void handle_pagina_inicial(){
+//Aqui está o nosso código em HTML
+void handle_pagina_inicial(){
   String message = "<!DOCTYPE html>";
   message += "<html lang='pt-br'>";
   message += "<meta http-equiv=\'content-type\' content=\'text/html; charset=utf-8\'>";
@@ -86,5 +87,3 @@ void loop() {
   server.send(200, "text/html", message);
   
 }
-
-*/
