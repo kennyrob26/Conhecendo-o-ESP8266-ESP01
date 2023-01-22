@@ -9,20 +9,34 @@ R"=====(
     <title>Ultrassonico</title>
     <style>
         body{
-            background-color: rgb(43, 42, 42);
+            background-color: rgb(65, 64, 64);
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-            color: white;
+            color: rgba(255, 255, 255, 0.747);
+        }
+        main{
+            margin: auto;
+            width: 350px;
+            border: 1px solid rgba(255, 255, 255, 0.336);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.425);
         }
         h1{
-            text-shadow: -2px -2px 2px 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.719);
+        }
+        p{
+            font-size: 1.2em;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px black;
+        }
         }
 
     </style>
 </head>
 <body>
     <h1>Utilizando sensor ultrassônico</h1>
-    <p id="distancia">Distância: </p>
+    <main>
+      <p id="distancia">Distância: </p>
+    </main>
 
     <script>
         atualiza();
